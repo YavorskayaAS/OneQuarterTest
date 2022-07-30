@@ -18,3 +18,14 @@ string[] SelectThreeSymbolElements(string[] array, int m)
     }
     return newArray;
 }
+
+
+void ShowArray(string[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+}
+
+ShowArray(SelectThreeSymbolElements(MyArray, 3));
